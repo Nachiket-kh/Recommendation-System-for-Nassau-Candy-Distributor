@@ -33,6 +33,10 @@ pytest -q
 
 `src/` contains loading, cleaning, features, training, evaluation, recommendations, and factory architecture. `predict.py` exposes the public prediction interfaces, while `tests/` contains core validation tests.
 
+## Research paper
+
+The detailed project paper is available at `docs/Nassau_Candy_Shipping_Optimization_Research_Paper.docx`. It documents the actual dataset, validation results, exploratory findings, methodology, measured model performance, recommendation design, factory-data limitation, and future work.
+
 ## Limitations
 
 Shipping-mode labels describe historical choices, not a causal measure of optimal logistics. Historical cost and duration comparisons are benchmarks only; no future savings are claimed. The dataset’s delayed ship dates materially limit delivery conclusions.
