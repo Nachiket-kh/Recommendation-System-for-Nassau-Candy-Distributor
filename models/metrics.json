@@ -1,0 +1,108 @@
+{
+  "selected_model": "hist_gradient_boosting",
+  "models": {
+    "logistic_regression": {
+      "accuracy": 0.23933300637567434,
+      "precision_weighted": 0.44451777642032786,
+      "recall_weighted": 0.23933300637567434,
+      "f1_weighted": 0.2773088395836572,
+      "confusion_matrix": [
+        [
+          87,
+          125,
+          31,
+          67
+        ],
+        [
+          25,
+          49,
+          8,
+          27
+        ],
+        [
+          114,
+          122,
+          77,
+          83
+        ],
+        [
+          338,
+          441,
+          170,
+          275
+        ]
+      ],
+      "top_1_accuracy": 0.23933300637567434,
+      "top_3_accuracy": 0.8013732221677293
+    },
+    "random_forest": {
+      "accuracy": 0.39725355566454146,
+      "precision_weighted": 0.4776904655433621,
+      "recall_weighted": 0.39725355566454146,
+      "f1_weighted": 0.4244780127834117,
+      "confusion_matrix": [
+        [
+          93,
+          40,
+          67,
+          110
+        ],
+        [
+          14,
+          34,
+          17,
+          44
+        ],
+        [
+          86,
+          41,
+          117,
+          152
+        ],
+        [
+          265,
+          140,
+          253,
+          566
+        ]
+      ],
+      "top_1_accuracy": 0.39725355566454146,
+      "top_3_accuracy": 0.9102501226091221
+    },
+    "hist_gradient_boosting": {
+      "accuracy": 0.5953898970083374,
+      "precision_weighted": 0.5114315475377038,
+      "recall_weighted": 0.5953898970083374,
+      "f1_weighted": 0.4965494233764036,
+      "confusion_matrix": [
+        [
+          16,
+          9,
+          15,
+          270
+        ],
+        [
+          1,
+          4,
+          7,
+          97
+        ],
+        [
+          8,
+          0,
+          41,
+          347
+        ],
+        [
+          18,
+          9,
+          44,
+          1153
+        ]
+      ],
+      "top_1_accuracy": 0.5953898970083374,
+      "top_3_accuracy": 0.9529180971064247
+    }
+  },
+  "baseline_accuracy": 0.6002942618930849
+}
